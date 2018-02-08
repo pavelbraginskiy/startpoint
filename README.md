@@ -1,5 +1,7 @@
 # startpoint
 
+`pip3 install startpoint`
+
 A simple python module providing a sane alternative to `if __name__ == "__main__"`
 
 To use, simply declare an entry point like so:
