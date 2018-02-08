@@ -8,7 +8,7 @@ setup(
     package_data={
         '': ['*.txt', '*.rst'],
     },
-    author="Pavel Braginskiy",
+    author="pavelbraginskiy",
     author_email="pavelbraginskiy@hotmail.com",
     description="A better entry point than if __name__ == '__main__'",
     license="MIT",
