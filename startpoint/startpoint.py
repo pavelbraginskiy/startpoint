@@ -3,6 +3,7 @@ from inspect import signature, Parameter
 def entrypoint(modname, alt=lambda:None):
     def _f(func):
         if modname == "__main__":
+            # Thanks to Mego for this snippet. Counts the number of required arguments that `func` has.
             count = len([x for x in signature(func).parameters.values() if x._kind is Parameter.POSITIONAL_OR_KEYWORD and x.default is Parameter.empty])
             if count == 1:
                 func(__import__('sys').argv)
