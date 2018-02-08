@@ -1,9 +1,8 @@
-from setuptools import setup, find_packages
-
+from setuptools import setup
 setup(
-    name="IsMain",
+    name="ismain",
     version="0.1",
-    packages=find_packages(),
+    packages=["ismain"],
     install_requires=['docutils>=0.3'],
     package_data={
         '': ['*.md'],
