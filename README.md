@@ -1,11 +1,11 @@
-# entrypoint
+# startpoint
 
 A simple python module providing a sane alternative to `if __name__ == "__main__"`
 
 To use, simply declare an entry point like so:
 
 ```python
-from ismain import entrypoint
+from startpoint import entrypoint
 
 @entrypoint(__name__)
 def main():
