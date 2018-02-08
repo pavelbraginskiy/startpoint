@@ -1,3 +1,4 @@
 build
 dist
 IsMain.egg-info/
+*/__pycache__*

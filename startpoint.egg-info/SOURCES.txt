@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+startpoint/__init__.py
+startpoint/startpoint.py
+startpoint.egg-info/PKG-INFO
+startpoint.egg-info/SOURCES.txt
+startpoint.egg-info/dependency_links.txt
+startpoint.egg-info/requires.txt
+startpoint.egg-info/top_level.txt

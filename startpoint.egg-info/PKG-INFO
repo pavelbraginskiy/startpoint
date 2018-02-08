@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: startpoint
+Version: 1.1
+Summary: A better entry point than if __name__ == '__main__'
+Home-page: https://github.com/pavelbraginskiy/ismain/tree/master
+Author: Pavel Braginskiy
+Author-email: pavelbraginskiy@hotmail.com
+License: MIT
+Description-Content-Type: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN

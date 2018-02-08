@@ -1,9 +1,9 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="IsMain",
-    version="0.1",
-    packages=find_packages(),
+    name="startpoint",
+    version="1.1",
+    packages=["startpoint"],
     install_requires=['docutils>=0.3'],
     package_data={
         '': ['*.md'],
