@@ -19,3 +19,10 @@ You can also specify a behaviour that will happen when the module is imported:
 @entrypoint(__name__, alt=lambda:print("I'm not a library!"))
 def main():
 ```
+
+You can also declare an entry point that take an argument, in which case `sys.argv` will be passed in:
+
+```python
+@entrypoint(__name__)
+def main(args):
+```
