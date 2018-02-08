@@ -6,12 +6,12 @@ setup(
     packages=find_packages(),
     install_requires=['docutils>=0.3'],
     package_data={
-        '': ['*.txt', '*.rst'],
+        '': ['*.md'],
     },
-    author="pavelbraginskiy",
+    author="Pavel Braginskiy",
     author_email="pavelbraginskiy@hotmail.com",
     description="A better entry point than if __name__ == '__main__'",
     license="MIT",
     url="https://github.com/pavelbraginskiy/ismain/tree/master"
-
+   
 )
