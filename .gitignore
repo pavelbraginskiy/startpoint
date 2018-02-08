@@ -1,4 +1,4 @@
 build
 dist
-IsMain.egg-info/
+startpoint.egg-info/
 */__pycache__*
