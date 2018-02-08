@@ -1,4 +1,4 @@
-# ismain
+# entrypoint
 
 A simple python module providing a sane alternative to `if __name__ == "__main__"`
 
