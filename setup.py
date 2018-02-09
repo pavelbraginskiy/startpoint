@@ -8,7 +8,7 @@ if sys.version_info < (3,3):
 
 setup(
     name="startpoint",
-    version="1.3.2",
+    version="1.3.3",
     packages=["startpoint"],
     install_requires=reqs,
     package_data={
