@@ -1,6 +1,6 @@
 # startpoint
 
-`pip3 install startpoint`
+`pip install startpoint`
 
 A simple python module providing a sane alternative to `if __name__ == "__main__"`
 
