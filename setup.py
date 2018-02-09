@@ -1,10 +1,16 @@
+import sys
+
 from setuptools import setup, find_packages
+funcsigs = []
+
+if sys.version_info < (3,2):
+    funcsigs = ["funcsigs>=1.0.2"]
 
 setup(
     name="startpoint",
-    version="1.2",
+    version="1.3",
     packages=["startpoint"],
-    install_requires=['docutils>=0.3'],
+    install_requires=['docutils>=0.3', *funcsigs],
     package_data={
         '': ['*.md'],
     },
