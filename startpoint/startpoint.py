@@ -1,5 +1,5 @@
 import sys
-if sys.version_info[0] == 3: 
+if sys.version_info < (3,3): 
     from inspect import signature, Parameter
 else:
     from funcsigs import signature, Parameter
