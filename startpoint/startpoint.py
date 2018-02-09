@@ -1,7 +1,7 @@
 import sys
-if sys.version_info > (3,2): 
+try: 
     from inspect import signature, Parameter
-else:
+except ImportError:
     from funcsigs import signature, Parameter
 
 def entrypoint(modname, alt=lambda:None):
