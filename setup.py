@@ -3,12 +3,14 @@ import sys
 from setuptools import setup, find_packages
 reqs = ['docutils>=0.3']
 
-if sys.version_info < (3,3):
+try:
+    from inspect import signature, Parameter
+except:
     reqs += ["funcsigs>=1.0.2"]
 
 setup(
     name="startpoint",
-    version="1.3.3",
+    version="1.3.4",
     packages=["startpoint"],
     install_requires=reqs,
     package_data={
